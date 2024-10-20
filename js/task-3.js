@@ -19,14 +19,9 @@ console.log(getElementWidth('200px', '0px', '0px'));
   let newBorder = border.slice(0, -2);
 
   newContent = Number(newContent);
-  //console.log(typeof newContent);
-
   newPadding = Number(newPadding);
-  //console.log(typeof newPadding);
-
   newBorder = Number(newBorder);
-  //console.log(typeof newBorder);
-
+ 
   return newContent + newPadding * 2 + newBorder * 2;
 }
 
